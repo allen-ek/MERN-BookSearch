@@ -4,8 +4,8 @@
 
 Allen Klein
 
-- [Link to Portfolio Site](https://allen-ek.github.io/react-portfolio/)
-- [Link to Github](https://github.com/allen-ek/react-portfolio)
+- [Link to Site](https://radiant-bayou-15314.herokuapp.com/)
+- [Link to Github](https://github.com/allen-ek/MERN-BookSearch)
 
 # MERN Application
 
