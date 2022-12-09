@@ -10,6 +10,7 @@ import { GET_ME } from '../utils/queries';
 
 const SavedBooks = () => {
   const { loading, data } = useQuery(GET_ME);
+  //eslint-disable-next-line
   const [removeBook, { error }] = useMutation(REMOVE_BOOK);
   
   const userData = data?.me || {};
@@ -20,6 +21,7 @@ const SavedBooks = () => {
   }
 
   try {
+   // eslint-disable-next-line
     const res = await removeBook({
       variables: { bookId },
     });
